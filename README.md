@@ -231,7 +231,7 @@ In Atlas UI → Search → Create Search Index:
   "fields": [{
     "type": "vector",
     "path": "embedding",
-    "numDimensions": 768,
+    "numDimensions": 3072,
     "similarity": "cosine"
   }]
 }
